@@ -27,14 +27,14 @@ toc: true
 	2. RuntimeException클래스와 그 자손들
 
 * Exception 클래스들은 주로 **사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외**  
+	* 존재하지 않은 파일의 이름 입력 - FileNotFoundException
+	* 실수로 클래스의 이름을 잘못 적음 - ClassNotFoundException
+	* 입력한 데이터 형식이 잘못된 경우 - DataFormatException 등
+* RuntimeException클래스들은 주로 **프로그래머의 실수에 의해서 발생할 수 있는 예외**
 	* 배열의 범위를 벗어남 - ArrayIndexOutOfBoundsException
 	* 값이 null인 참조변수의 멤버를 호출 - NullPointerException
 	* 클래스간의 형변환 실수 - ClassCastException
 	* 정수를 0으로 나눔 - ArithmeticException 등
-* RuntimeException클래스들은 주로 **프로그래머의 실수에 의해서 발생할 수 있는 예외**
-	* 존재하지 않은 파일의 이름 입력 - FileNotFoundException
-	* 실수로 클래스의 이름을 잘못 적음 - ClassNotFoundException
-	* 입력한 데이터 형식이 잘못된 경우 - DataFormatException 등
 
 ### 1.3 예외처리하기 - try-catch문
 실행도중 발생하는 에러는 어쩔 수 없지만, 예외는 프로그래머가 이에 대한 처리를 미리 해주어야 한다.
