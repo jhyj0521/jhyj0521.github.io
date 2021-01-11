@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee Junghoon"
+  name             : "Junghoon"
   avatar           : "assets/images/profile/img1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준하게 발전하는 개발자"
   location         : "Gyeonggi, Korea"
