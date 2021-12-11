@@ -10,12 +10,13 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  padding: 10px 0;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-     /* 메뉴바 패딩 조절 */
+    /* 메뉴바 패딩 조절 */
     /*padding: 1em;*/
     padding: 0.4em;
     max-width: 100%;
@@ -26,9 +27,9 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
-     /* 메뉴바 텍스트 설정 */
-     font-size: $type-size-4;
-     font-weight: bold;
+    /* 메뉴바 텍스트 설정 */
+    font-size: $type-size-3;
+    font-weight: bold;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -61,6 +62,7 @@
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
+  font-weight: normal;
 }
 
 .masthead__menu {
